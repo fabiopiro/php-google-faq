@@ -15,12 +15,16 @@ body {
 
 .faq_element {
     margin: 75px 0;
-    
+    line-height: 1.6em;
+    font-size: 14px;
 }
 
 .faq_element .question {
     margin-bottom: 30px;    
 }
+
+/* .faq_element .answer {
+} */
 
 .faq_element .answer a {
     text-decoration: none;
