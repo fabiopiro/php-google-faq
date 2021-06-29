@@ -98,7 +98,22 @@ $faqs = [
                             ],
                             [
                                 "question" => "Perché il mio account è associato a un paese?",
-                                "answer" => "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:",
+                                "answer" => "
+                                <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
+                                <ol>
+                                    <li>
+                                        <p>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</p>
+                                        <ol type='a'>
+                                            <li><p>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</p></li>
+                                            <li><p>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</p></li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        <p>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</p>
+                                    </li>
+                                </ol>
+                                <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
+                                ",
 
                                 
                                 
@@ -117,8 +132,8 @@ $faqs = [
 
                             <?php if ( array_key_exists("sub_answer", $faq) ) { ?>
 
-                                    <h3 class="question"><?php echo $faq["sub_answer_title"] ?></h3>
-                                    <p class="answer"><?php echo $faq["sub_answer"] ?></p>
+                                    <h3><?php echo $faq["sub_answer_title"] ?></h3>
+                                    <p><?php echo $faq["sub_answer"] ?></p>
 
                             <?php } ?>
                         </div>

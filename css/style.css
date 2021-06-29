@@ -32,3 +32,9 @@ body {
 .faq_element .answer a:visited {
     color: blue;
 }
+
+
+
+h3 {
+    margin: 50px 0;
+}
