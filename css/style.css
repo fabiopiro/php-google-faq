@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+.faq_element {
+    margin: 75px 0;
+    
+}
+
+.faq_element .question {
+    margin-bottom: 30px;    
+}
+
+.faq_element .answer a {
+    text-decoration: none;
+}
+.faq_element .answer a:visited {
+    color: blue;
+}
